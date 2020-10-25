@@ -1,0 +1,127 @@
+@font-face {
+	font-family: MyriadArabic;
+	src: url(./css/MyriadArabic.otf) format("opentype");	
+}
+body{
+	background:  linear-gradient(rgba(7, 7, 7, 0.5), rgba(7, 7, 7, 0.5)),url("../images/movie.png") no-repeat;
+	background-size:cover; 
+}
+.logo{
+	float: left;
+}
+ul{
+	float: right;
+	list-style-type: none;
+}
+li{
+	display: inline-block;
+	vertical-align: middle;
+}
+ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 15px;
+	vertical-align: middle;
+	font-family: MyriadArabic, sans-serif;
+	letter-spacing: 5px;
+	padding: 10px;
+}
+.title-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title{
+	font-family: MyriadArabic, sans-serif;
+	letter-spacing: 5px;
+	word-spacing: 2.5px;
+	font-size: 40px; 
+	color:white ;	
+	text-align: center ;
+}
+.btn-login{
+	position: absolute;
+	top: 70%;
+	left: 47%;
+	transform: translate(-30%, -53%);
+	color: white;
+	border : 2px solid white ; 
+	border-radius: 15px;
+	padding: 15px 50px;
+	text-decoration: none  ;
+	font-family: MyriadArabic, sans-serif;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+.btn-login:hover , ul li a:hover{
+	background-color  : white ;
+	color: black;
+	transition: 1.5s ease ; 
+	border-radius: 5px ; 
+}
+
+ul li.active a{
+	background-color  : white ;
+	color: black;
+	border-radius: 5px ; 
+}
+.copyright{
+	color: white;
+	font-family: MyriadArabic, sans-serif;
+	letter-spacing: 3px;
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;	
+	left:0;
+	padding: 10px;
+	margin: 10px;
+}
+.owner{
+	color: white;
+	font-family: MyriadArabic, sans-serif;
+	letter-spacing: 3px;
+	font-size: 12px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 0;	
+	right: 0;
+	padding: 10px;
+	margin: 10px;
+}
+.ads{
+	background-color:#4a4a90; 
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	width:850px; height:500px;
+	margin: 10px;
+}
+.image{
+	position: fixed;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	padding-top:px;
+}
+.text{
+	position: absolute;
+	top: 90%;
+	left:20%;
+	transform: translate(-10%, -80%);
+	font-family: MyriadArabic, sans-serif;
+	letter-spacing: 5px;
+	word-spacing: 2.5px;
+	font-size: 25px; 
+	color:white ;	
+	text-align: center ;
+	padding-bottom: 20px;
+}
+.close{
+	position: absolute;
+	top: 5%;
+	left:97%;
+	transform: translate(-95%, -3%);
+}
